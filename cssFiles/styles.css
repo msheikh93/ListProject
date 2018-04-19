@@ -1,0 +1,82 @@
+body {
+
+}
+
+.listBox {
+    width: 500px;
+    height: 350px;
+    background: rgb(83, 116, 116);
+    margin: 10% auto auto auto;
+    border-radius: 8px;
+}
+
+.listHeading {
+    color: white;
+    text-align: center;
+}
+
+.listView {
+    width: 400px;
+    height: 200px;
+    background: white;
+    margin: auto auto auto auto;
+}
+
+.myDiv {
+    margin: auto auto auto auto;
+    width: 400px;
+}
+.newListNode {
+    width: 300px;
+    font-size: 20px;
+    border-radius:4px; 
+}
+
+#submitButton {
+    margin: auto auto auto auto;
+    font-size:15px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+}
+
+#submitButton:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+#editButton {
+    margin: 5px auto auto 354px;
+    font-size:15px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    display: none;
+}
+
+#editButton:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0 0 0 10;
+    margin: 10 0 0 0;
+    list-style: none;
+    float: left;
+}
+
+.eachListNode {
+    font-size: 17px;
+}
+
+.eachListNode:hover {
+    cursor: pointer;
+    background: rgb(228, 214, 213);
+}
